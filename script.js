@@ -43,7 +43,52 @@ const questions = [
       {text: "P. Chidambaram", correct: false},
       {text: "Nirmala Sitharaman", correct: true},
     ]
-  }
+  },
+  {
+    question: "Who wrote the play 'Romeo and Juliet'?",
+    answers: [
+      {text: "William Wordsworth", correct: false},
+      {text: "William Shakespeare", correct: true},
+      {text: "Jane Austen", correct: false},
+      {text: "Charles Dickens", correct: false},
+    ]
+  },
+  {
+    question: "What is the largest mammal in the world?",
+    answers: [
+      {text: "African Elephant", correct: false},
+      {text: "Blue Whale", correct: true},
+      {text: "Giraffe", correct: false},
+      {text: "Hippopotamus", correct: false},
+    ]
+  },
+  {
+  question: "Which gas do plants absorb from the atmosphere?",
+  answers: [
+    {text: "Oxygen", correct: false},
+    {text: "Nitrogen", correct: false},
+    {text: "Carbon Dioxide", correct: true},
+    {text: "Hydrogen", correct: false},
+  ]
+},
+{
+  question: "In which continent is the Sahara Desert located?",
+  answers: [
+    {text: "Asia", correct: false},
+    {text: "South America", correct: false},
+    {text: "Africa", correct: true},
+    {text: "Australia", correct: false},
+  ]
+},
+{
+  question: "What is the chemical symbol for gold?",
+  answers: [
+    {text: "Au", correct: true},
+    {text: "Ag", correct: false},
+    {text: "Gd", correct: false},
+    {text: "Go", correct: false},
+  ]
+}
 ];
 
 const questionElement = document.getElementById("question")
